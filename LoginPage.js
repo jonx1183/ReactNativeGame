@@ -20,7 +20,7 @@ persistence: getReactNativePersistence(ReactNativeAsyncStorage)
 }
 
 
-export default function App() {
+export default function LoginPage() {
 const [enteredEmail, setEnteredEmail] = useState("jon@m.dk")
 const [enteredPassword, setEnteredPassword] = useState("123456")
 const [userId, setUserId] = useState(null)
